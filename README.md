@@ -24,7 +24,7 @@ Mapper: The Mapper library is used to simplify the conversion of complex data ob
 
 Usage:
 
-Clone the repository: git clone https://github.com/your-username/job-portal.git
+Clone the repository: git clone https://github.com/HasanHuseynov/Job-portal.git
 Configure your PostgreSQL database settings in application.properties.
 Build and run the application using your preferred Java IDE or by using the command line: mvn spring-boot:run.
 Contributions:
