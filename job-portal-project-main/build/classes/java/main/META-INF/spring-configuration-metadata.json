@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "spring.mail",
+      "type": "com.example.jobportal.config.MailProperties",
+      "sourceType": "com.example.jobportal.config.MailProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.mail.host",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobportal.config.MailProperties"
+    },
+    {
+      "name": "spring.mail.password",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobportal.config.MailProperties"
+    },
+    {
+      "name": "spring.mail.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.example.jobportal.config.MailProperties"
+    },
+    {
+      "name": "spring.mail.username",
+      "type": "java.lang.String",
+      "sourceType": "com.example.jobportal.config.MailProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,38 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: hasan123
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        default_schema: job_portal_project
+
+
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.xml
+    default-schema: job_portal_project
+    enabled: true
+    database-change-log-table: LOG_TABLE_DBLOG
+    database-change-log-lock-table: LOCK_TABLE_DBLOCK
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: hesenhuseynov372@gmail.com
+    password: wpwdvvptfupbvkxr
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+application:
+  security:
+    jwt:
+      secret-key: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days
+
