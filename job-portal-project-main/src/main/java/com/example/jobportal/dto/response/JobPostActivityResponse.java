@@ -14,11 +14,7 @@ import java.time.LocalDate;
 public class JobPostActivityResponse {
     private Integer jobPostActivityId;
 
-//    private JobPost jobPost;
-
     private LocalDate applyDate;
-
-    private UserResponse user;
 
     private JobPostResponse jobPost;
 
